@@ -16,7 +16,7 @@ use App\Http\Controllers\EmployeeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('employees.index');
 });
 
 Route::resource('employees', EmployeeController::class);
